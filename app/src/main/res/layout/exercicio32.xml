@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent"
+    tools:context=".Exercicio32">
+
+    <TableLayout
+        android:id="@+id/tab1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/onibus"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/aviao"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bairros"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/turismo"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:scaleType="fitXY"
+                android:layout_margin="5dp"
+                android:src="@drawable/telefone"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:scaleType="fitXY"
+                android:layout_margin="5dp"
+                android:src="@drawable/taxi"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/cultura"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/feriados"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:scaleType="fitXY"
+                android:layout_margin="5dp"
+                android:src="@drawable/sac"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+
+    <TableLayout
+        android:id="@+id/tab2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:layout_below="@id/tab1"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/onibus"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/aviao"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bairros"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/turismo"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:scaleType="fitXY"
+                android:layout_margin="5dp"
+                android:src="@drawable/telefone"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:scaleType="fitXY"
+                android:layout_margin="5dp"
+                android:src="@drawable/taxi"/>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/cultura"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/feriados"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:scaleType="fitXY"
+                android:layout_margin="5dp"
+                android:src="@drawable/sac"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/tab2"
+        android:text="Botao 1"/>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/bt1"
+        android:layout_below="@id/tab2"
+        android:text="Botao 2"/>
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/bt2"
+        android:text="Botao 3"/>
+
+
+
+
+
+
+</RelativeLayout>
