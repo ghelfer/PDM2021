@@ -124,4 +124,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         startActivity(intent);
     }
 
+    public void aula5Click(View view) {
+        Intent intent = new Intent(MainActivity.this, ListaActivity.class);
+        startActivity(intent);
+    }
 }

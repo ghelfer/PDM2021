@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,12 +9,18 @@
     tools:context=".MainActivity"
     tools:ignore="Deprecated">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
     <Button
         android:id="@+id/btnSalvar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:textColor="@color/red"
+        android:textSize="20sp"
         android:text="@string/botao1" />
 
     <TextView
@@ -43,7 +49,22 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:src="@drawable/android" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/android" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/android" />
     </LinearLayout>
+
 
     <EditText
         android:id="@+id/editText1"
@@ -108,4 +129,13 @@
         android:layout_marginTop="20dp"
         android:text="Aula4" />
 
-</LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="aula5Click"
+        android:layout_marginTop="20dp"
+        android:text="Aula5" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Aula1PDM">
-        <activity android:name=".Aula4Activity"></activity>
+        <activity android:name=".ListaActivity"></activity>
+        <activity android:name=".Aula4Activity" />
         <activity android:name=".Exercicio34" />
         <activity android:name=".Exercicio33" />
         <activity android:name=".Exercicio32" />
