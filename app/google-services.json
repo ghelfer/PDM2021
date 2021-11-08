@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "809226268970",
+    "project_id": "aula-pdm-f76ff",
+    "storage_bucket": "aula-pdm-f76ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809226268970:android:69922652d8344454f32e53",
+        "android_client_info": {
+          "package_name": "com.torre.aula1pdm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809226268970-3drhoob9tvonjkdhrsbqk4mtae5vn40s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS3RX3ZtENYPAdvgnJQ7BooSrwfR9XeaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809226268970-3drhoob9tvonjkdhrsbqk4mtae5vn40s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
